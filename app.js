@@ -65,7 +65,7 @@ function filterTodo(e) {
             break;
         case "completed":
             if (todo.classList.contains('completed')) {
-                todo.style.display = '  flex';
+                todo.style.display = 'flex';
             }   else {
                 todo.style.display = 'none';
             }
@@ -78,7 +78,6 @@ function filterTodo(e) {
             }  
     }
     });
-
 }
 function saveLocalTodos(todo) {
     // CHECK---HEY Do I already have things in there?
